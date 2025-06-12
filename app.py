@@ -2,7 +2,7 @@ import os
 import streamlit as st 
 
 from dotenv import load_dotenv
-from lllm import get_ai_message
+from llm import get_ai_message
 
 st.set_page_config(
     page_title='소득세 챗봇',
